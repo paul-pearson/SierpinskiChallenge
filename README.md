@@ -64,7 +64,7 @@ Write a Java program to draw a Sierpinski Triangle Implement the drawSierpinskiT
 
 
 ```java
-drawSierpinskiTriangle(4);
+drawSierpinskiTriangle(3);
 
 Output:
     *           
