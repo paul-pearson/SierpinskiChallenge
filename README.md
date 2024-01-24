@@ -1,5 +1,15 @@
 # Sierpinski Pattern Challenges
 
+## Feel free to use helper functions and whatever is needed!
+
+## Forbidden:
+- ChatGPT/CoPilot
+- StackOverflow etc
+
+## Hints:
+- https://en.wikipedia.org/wiki/Sierpi%C5%84ski_carpet
+- https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle
+- Recursion! https://runestone.academy/ns/books/published/pythonds/Recursion/pythondsSierpinskiTriangle.html
 
 ### Step 1 Sierpinski triangle n=1
 Write a Java program to draw Triangle as below.
