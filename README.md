@@ -10,6 +10,7 @@
 - https://en.wikipedia.org/wiki/Sierpi%C5%84ski_carpet
 - https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle
 - Recursion! https://runestone.academy/ns/books/published/pythonds/Recursion/pythondsSierpinskiTriangle.html
+- There are variety of implementation of those algorithms =)
 
 ### Step 1 Sierpinski triangle n=1
 Write a Java program to draw Triangle as below.
