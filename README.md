@@ -1,25 +1,73 @@
 # Sierpinski Pattern Challenges
 
-This Java project contains 3 methods for drawing Sierpinski patterns:
 
-1. `drawTriangle(int n)`: Draws a Sierpinski triangle of order `n` to the console.
-2. `drawCarpet(int n)`: Draws a Sierpinski carpet of order `n` to the console.
-3. `drawTriangleAnyN(int n)`: Draws a Sierpinski triangle of order `n` to the console.
-
-## Usage
-
-To use this project, simply call one of the methods in the `Sierpinski` class with the desired order of the pattern as an argument.
-
-For example, to draw a Sierpinski triangle of order 4, you can use the following code:
+### Step 1 Sierpinski triangle n=1
+Write a Java program to draw Triangle as below.
 
 ```java
-Sierpinski.drawTriangle(4);
+drawTriangle(4);
 
 Output:
    *   
   * *  
  *   * 
 *******
+```
+### Step 2: Sierpinski Carpet
+Implement a Java program to generate and display a Sierpinski Carpet using recursion. The provided code gives you a starting point with a function drawSierpinskiCarpet that takes two parameters - order and size. The order determines the level of recursion, and size sets the size of the carpet. The program initializes a 2D char array representing the carpet, fills it with empty spaces, and then populates it with '*' characters based on the Sierpinski pattern.
+
+```
+Output for drawSierpinskiCarpet(3, 27)
+***************************
+* ** ** ** ** ** ** ** ** *
+***************************
+***   ******   ******   ***
+* *   * ** *   * ** *   * *
+***   ******   ******   ***
+***************************
+* ** ** ** ** ** ** ** ** *
+***************************
+*********         *********
+* ** ** *         * ** ** *
+*********         *********
+***   ***         ***   ***
+* *   * *         * *   * *
+***   ***         ***   ***
+*********         *********
+* ** ** *         * ** ** *
+*********         *********
+***************************
+* ** ** ** ** ** ** ** ** *
+***************************
+***   ******   ******   ***
+* *   * ** *   * ** *   * *
+***   ******   ******   ***
+***************************
+* ** ** ** ** ** ** ** ** *
+***************************
+```
+
+### Step 3: Sierpinski Triangle Implementation
+
+Write a Java program to draw a Sierpinski Triangle Implement the drawSierpinskiTriangle function that takes an integer parameter n representing the order of the triangle. The function should draw an equilateral triangle of size 2^n - 1 using '*' characters. The triangle should be centered in the console. The program should have a main method to demonstrate the function.
+
 
 ```java
-Sierpinski.drawCarpet(2);
+drawSierpinskiTriangle(4);
+
+Output:
+    *           
+    **          
+                
+   *  *         
+   ** **        
+                
+                
+  *     *       
+ **     **                      
+*  *   *  *     
+** **  ** **    
+
+```
+
+## The output does not need to be exactly the same. The closer to the best results the better!
