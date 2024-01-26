@@ -7,6 +7,7 @@ public class SierpinskiCarpet {
     }
     
     public static void drawSierpinskiCarpet(int order, int size) {
-        //TODO: Implement this 
+        Carpet carpet = new Carpet(order, size);
+        carpet.generate();
     }
 }

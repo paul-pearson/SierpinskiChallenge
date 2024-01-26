@@ -3,6 +3,7 @@ package src.main.java;
 public class Triangle {
 
     private char STAR = '*';
+    private char SPACE = ' ';
 
     private final char[][] array;
     private int height;
@@ -10,7 +11,7 @@ public class Triangle {
     public Triangle (int height) {
         this.height = height;
         array = new char[height][2*height];
-        ArrayUtils.fillArray(array);
+        ArrayUtils.fillArray(array, SPACE);
     }
 
     public void generate () {
@@ -26,5 +27,9 @@ public class Triangle {
             array[array.length - 1][column] = STAR;
         }
         new ArrayDrawer().drawArray(array);
+    }
+
+    public char[][] getArray() {
+        return array;
     }
 }
