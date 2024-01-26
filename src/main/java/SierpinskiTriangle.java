@@ -12,6 +12,7 @@ public class SierpinskiTriangle {
     };
     
     public static void drawSierpinskiTriangle(int order) {
-     //TODO: Implement this   
+         TrianglePart3 trianglePart3 = new TrianglePart3(order);
+         trianglePart3.generate();
     }
 }
