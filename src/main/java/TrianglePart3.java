@@ -33,7 +33,12 @@ public class TrianglePart3 {
         }
         for (int rowNum = newArray.length; rowNum < newArray.length * 2; rowNum++) {
             for (int columnNum = newArray.length; columnNum < newArray.length * 2; columnNum++) {
-                nextArray[rowNum][columnNum] = newArray[rowNum - newArray.length][columnNum];
+                nextArray[rowNum][columnNum] = newArray[rowNum - newArray.length][columnNum - newArray.length];
+            }
+        }
+        for (int rowNum = 0; rowNum < newArray.length; rowNum++) {
+            for (int columnNum = newArray.length / 2; columnNum < newArray.length + newArray.length / 2; columnNum++) {
+                nextArray[rowNum][columnNum] = newArray[rowNum][columnNum - newArray.length / 2];
             }
         }
         return nextArray;
