@@ -3,12 +3,12 @@ package src.main.java;
 import static src.main.java.ArrayUtils.SPACE;
 import static src.main.java.ArrayUtils.STAR;
 
-public class TrianglePart3 {
+public class SierpinskiTriangleImpl {
 
     private final char[][] startArray;
     private int order;
 
-    public TrianglePart3 (int order) {
+    public SierpinskiTriangleImpl(int order) {
         this.order = order;
         startArray = new char[2][2];
         ArrayUtils.fillArray(startArray, STAR);

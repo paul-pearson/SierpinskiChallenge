@@ -4,12 +4,12 @@ import static src.main.java.ArrayUtils.SPACE;
 import static src.main.java.ArrayUtils.STAR;
 
 
-public class Triangle {
+public class SimpleTriangle {
 
     private final char[][] array;
     private int height;
 
-    public Triangle (int height) {
+    public SimpleTriangle(int height) {
         this.height = height;
         array = new char[height][(2 * height) - 1];
         ArrayUtils.fillArray(array, SPACE);

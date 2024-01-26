@@ -3,14 +3,14 @@ package src.main.java;
 import static src.main.java.ArrayUtils.SPACE;
 import static src.main.java.ArrayUtils.STAR;
 
-public class Carpet {
+public class SierpinkskiCarpetImpl {
 
 
     private final char[][] array;
     private int order;
     private int size;
 
-    public Carpet(int order, int size) {
+    public SierpinkskiCarpetImpl(int order, int size) {
         this.order = order;
         this.size = size;
         array = new char[size][size];

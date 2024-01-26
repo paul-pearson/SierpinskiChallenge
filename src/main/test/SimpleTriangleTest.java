@@ -1,14 +1,14 @@
 package src.main.test;
 
 import org.junit.jupiter.api.Test;
-import src.main.java.Triangle;
+import src.main.java.SimpleTriangle;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TriangleTest {
+public class SimpleTriangleTest {
 
-    private Triangle setUpTriangle (int size){
-        Triangle triangle = new Triangle(size);
+    private SimpleTriangle setUpTriangle (int size){
+        SimpleTriangle triangle = new SimpleTriangle(size);
         triangle.generate();
         return triangle;
     }
