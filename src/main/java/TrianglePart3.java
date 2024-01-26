@@ -1,9 +1,9 @@
 package src.main.java;
 
-public class TrianglePart3 {
+import static src.main.java.ArrayUtils.SPACE;
+import static src.main.java.ArrayUtils.STAR;
 
-    private char STAR = '*';
-    private char SPACE = ' ';
+public class TrianglePart3 {
 
     private final char[][] startArray;
     private int order;

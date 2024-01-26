@@ -1,9 +1,10 @@
 package src.main.java;
 
-public class Triangle {
+import static src.main.java.ArrayUtils.SPACE;
+import static src.main.java.ArrayUtils.STAR;
 
-    private char STAR = '*';
-    private char SPACE = ' ';
+
+public class Triangle {
 
     private final char[][] array;
     private int height;

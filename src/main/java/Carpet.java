@@ -1,10 +1,10 @@
 package src.main.java;
 
+import static src.main.java.ArrayUtils.SPACE;
+import static src.main.java.ArrayUtils.STAR;
+
 public class Carpet {
 
-
-    private char STAR = '*';
-    private char SPACE = ' ';
 
     private final char[][] array;
     private int order;
