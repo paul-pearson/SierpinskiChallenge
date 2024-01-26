@@ -54,4 +54,8 @@ public class Carpet {
             }
         }
     }
+
+    public char[][] getArray() {
+        return array;
+    }
 }
