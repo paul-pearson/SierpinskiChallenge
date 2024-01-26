@@ -24,7 +24,6 @@ public class Carpet {
         int squareColumn = 0;
         int squareSize = size;
         doRecursion(currentOrder, squareRow, squareColumn, squareSize);
-        //removeSquares(size / 3, 2  * size/ 3, size / 3, 2 * size / 3);
         new ArrayDrawer().drawArray(array);
     }
 
@@ -38,6 +37,11 @@ public class Carpet {
             doRecursion(currentOrder + 1, squareRow, squareColumn, squareSize / 3);
             doRecursion(currentOrder + 1, squareRow, squareColumn + squareSize / 3, squareSize / 3);
             doRecursion(currentOrder + 1, squareRow, squareColumn + 2 * squareSize / 3, squareSize / 3);
+            doRecursion(currentOrder + 1, squareRow + squareSize / 3, squareColumn, squareSize / 3);
+            doRecursion(currentOrder + 1, squareRow + squareSize / 3, squareColumn + 2 * squareSize / 3, squareSize / 3);
+            doRecursion(currentOrder + 1, squareRow + 2 * squareSize / 3, squareColumn, squareSize / 3);
+            doRecursion(currentOrder + 1, squareRow + 2 * squareSize / 3, squareColumn + squareSize / 3, squareSize / 3);
+            doRecursion(currentOrder + 1, squareRow + 2 * squareSize / 3, squareColumn + 2 * squareSize / 3, squareSize / 3);
         }
 
     }
