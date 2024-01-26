@@ -10,7 +10,7 @@ public class Triangle {
 
     public Triangle (int height) {
         this.height = height;
-        array = new char[height][2*height];
+        array = new char[height][(2 * height) - 1];
         ArrayUtils.fillArray(array, SPACE);
     }
 
